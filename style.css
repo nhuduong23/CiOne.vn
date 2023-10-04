@@ -1,0 +1,111 @@
+#wapper {
+	width: 960px;
+	margin: 0px auto;
+}
+
+#nav1 {
+	height: 46px;
+	background-color: black;
+	position: fixed;
+	width: 100%;
+}
+
+	#nav1 a {
+		width: 100px;
+		margin: 20px;
+		display: inline-block;
+		text-decoration: none;
+		color: white;
+	}
+
+#logo img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	height: 200px;
+}
+
+#dashed a {
+	margin: 0 auto;
+	padding: 15px 15px;
+	width: 100%;
+	background-color: rgb(153, 149, 149);
+	border: 2px dotted blue;
+	border-radius: 10px;
+}
+
+.text-center div {
+	width: 300px;
+	text-align: left;
+}
+
+#header {
+	text-align: center;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#menu {
+	height: 50px;
+	background-color: blue;
+	width: 100%;
+}
+
+	#menu a {
+		width: 100px;
+		margin: 20px;
+		display: inline-block;
+		text-decoration: none;
+		color: white;
+	}
+
+span {
+	color: red;
+}
+
+#main img {
+	width: 250px;
+	height: 250px;
+}
+
+.qoute {
+	width: 500px;
+	text-align: left;
+}
+
+.souceright {
+	text-align: right;
+	font-style: italic;
+}
+
+	.souceright span {
+		color: rgb(10, 158, 101);
+	}
+
+.text {
+	width: 300px;
+	text-align: left;
+	padding: 20px;
+}
+
+.border {
+	border-radius: 10px;
+	border: 2px dashed blue;
+	background-color: gainsboro;
+}
+
+.red {
+	color: red;
+}
+
+.blue {
+	color: blue;
+}
+
+#footer {
+	background-color: black;
+	padding: 2px;
+	text-align: center;
+	color: white
+}
